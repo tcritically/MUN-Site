@@ -1,0 +1,595 @@
+<!doctype html>
+<html amp>
+<head>
+  <title>Committees in Model UN</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+  <link rel="canonical" href="https://www.northmun.com/compass/committees-in-mun">
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+  <style amp-custom>/* @group type scale */
+
+body {
+  font-size: 1em;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+p, ul, ol, blockquote {
+  margin-top: 1.45em;
+  margin-bottom: 1.45em;
+}
+
+blockquote {
+  font-style: italic;
+  color: #888;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1.414em;
+  border-left: 1px solid #eee;
+}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+  color: #111;
+}
+
+h1 {
+  font-size: 2.074em;
+}
+
+h2 {
+  font-size: 1.728em;
+}
+
+h3 {
+  font-size: 1.44em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+blockquote,
+.amp-article-quote-block-source,
+.amp-article-original-source {
+  font-size: 0.833em;
+}
+
+.amp-article-image-caption p,
+.amp-article-video-caption p,
+.amp-article-audio-caption p,
+.amp-article-pubdate,
+.amp-article-author-name {
+  font-size: 0.694em;
+  letter-spacing: 0;
+}
+
+.tiny-font {
+  font-size: 0.579em;
+}
+
+/* @group end */
+
+/* @group general */
+
+body {
+  background: #f2f2f2;
+  font-family: "Avenir Next", Avenir, Roboto, "Segoe WP", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.0125em;
+  line-height: 1.45;
+  color: #666;
+}
+
+.website {
+  width: 100vw;
+  max-width: 768px;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+}
+
+.website-header {
+  background: #111;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 2vh 4vw;
+  box-sizing: border-box;
+  max-height: 12vh;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 0.833em;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #f7f7f7;
+}
+
+.site-title a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.amp-view-original {
+  font-size: 0.579em;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: right;
+  white-space: nowrap;
+  color: #666;
+}
+
+.amp-view-original a {
+  color: #666;
+  text-decoration: none;
+}
+
+/* @group end */
+
+/* @group amp article */
+
+.amp-article-content {
+  padding-bottom: 4vh;
+  box-sizing: border-box;
+}
+
+.amp-article-main-image {
+  max-width: 100%;
+}
+
+.amp-article-header {
+  margin-top: 4vh;
+}
+
+.amp-article-header,
+.amp-article-footer,
+.amp-article-html-block,
+.amp-article-markdown-block,
+.amp-article-image-caption,
+.amp-article-video-caption,
+.amp-article-quote-block,
+.amp-article-audio-block,
+.amp-article-embed-block.twitter-tweet {
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.amp-article-title {
+  letter-spacing: -0.0325em;
+}
+
+.amp-article-image-block,
+.amp-article-video-block {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.amp-article-pubdate,
+.amp-article-author-name,
+.amp-article-image-caption,
+.amp-article-video-caption,
+.amp-article-audio-caption,
+.amp-article-quote-block-source {
+  color: #999;
+}
+
+.amp-article-pubdate,
+.amp-article-author-name {
+  display: inline-block;
+  letter-spacing: 0.02em;
+}
+
+.amp-article-pubdate + .amp-article-author-name:before,
+.amp-article-audio-title + .amp-article-audio-author:before {
+  content: ' by ';
+}
+
+.amp-article-audio-title {
+  font-style: italic;
+}
+
+.amp-article-quote-block {
+  margin-top: 1.45em;
+  margin-bottom: 1.45em;
+}
+
+.amp-article-quote-block-text {
+  font-size: 1.2em;
+  font-style: italic;
+  line-height: 1.2;
+  color: #111;
+  margin: 0;
+  padding: 0;
+  border-left-width: 0px;
+}
+
+.amp-article-quote-block-source {
+  margin-top: 0.833em;
+  display: block;
+}
+
+.amp-article-audio-caption p {
+  margin-top: 0.5em;
+  display: block;
+}
+
+amp-img {
+  background-color: #f7f7f7;
+  max-width: 100%;
+}
+
+.amp-article-hr-block {
+  height: 1px;
+  border: none;
+  margin: 2.6em 0;
+  color: #eee;
+  background-color: #eee;
+}
+
+.amp-article-placeholder-block {
+  background-color: rgba(0, 0, 0, 0.02);
+  margin: 1.45em;
+  padding: 1.45em;
+  text-align: center;
+}
+
+/* @group end */
+</style>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "headline": "Committees in Model UN",
+      "mainEntityOfPage": "https://www.northmun.com",
+      
+      "url": "https://www.northmun.com/compass/committees-in-mun",
+      "author": {
+        "@type": "Person",
+        "name": "USG of Committees"
+      },
+      "publisher": {
+        "@type": "Organization",
+        
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1540439653073-KDEWSHP265V7WQLJRFV5/North_gold.png",
+          "width": 2048,
+          "height": 2048
+        },
+        
+        "name": "North Model United Nations 2021"
+      },
+      
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576048951057-TEAMXUQKQSPM67OUE0K4/image-asset.jpeg?format=750w",
+        "width": 2500,
+        "height": 1667
+      },
+      
+      "datePublished": "2021-03-20",
+      "dateModified": "2021-03-23"
+    }
+  </script>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  
+</head>
+<body>
+  <div id="page" class="website">
+
+    <header class="website-header">
+      <h1 class="site-title"><a href="https://www.northmun.com" target="_blank">North Model United Nations 2021</a></h1>
+      <small class="amp-view-original"><a href="https://www.northmun.com/compass/committees-in-mun" target="_blank">View Original</a></small>
+    </header>
+
+    <article id="content" class="amp-article-content">
+      
+        <amp-img
+          class="amp-article-main-image"
+          layout="responsive"
+          width="2500"
+          height="1667"
+          src="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576048951057-TEAMXUQKQSPM67OUE0K4/image-asset.jpeg?format=500w"
+          srcset="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576048951057-TEAMXUQKQSPM67OUE0K4/image-asset.jpeg?format=2500w 2500w,
+          https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576048951057-TEAMXUQKQSPM67OUE0K4/image-asset.jpeg?format=1500w 1500w,
+          https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576048951057-TEAMXUQKQSPM67OUE0K4/image-asset.jpeg?format=1000w 1000w,
+          https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576048951057-TEAMXUQKQSPM67OUE0K4/image-asset.jpeg?format=750w 750w,
+          https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576048951057-TEAMXUQKQSPM67OUE0K4/image-asset.jpeg?format=500w 500w,
+          https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576048951057-TEAMXUQKQSPM67OUE0K4/image-asset.jpeg?format=300w 300w,
+          https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576048951057-TEAMXUQKQSPM67OUE0K4/image-asset.jpeg?format=100w 100w"
+          sizes="100vw">
+        </amp-img>
+      
+
+      <header class="amp-article-header">
+        <h1 class="amp-article-title">Committees in Model UN</h1>
+        <div class="amp-article-meta">
+          <time class="amp-article-pubdate" datetime="2021-03-20">
+            March 20, 2021
+          </time>
+          <small class="amp-article-author-name">USG of Committees</small>
+        </div>
+      </header>
+
+      
+
+
+
+<div class="amp-article-placeholder-block">
+  <a href="/compass/committees-in-mun">
+    <em>
+      See this content in the original post
+    </em>
+  </a>
+</div>
+
+
+
+
+<div class="amp-article-html-block"><h2><strong>Understanding Committees</strong></h2>
+<p class="">Nowadays, Model United Nations conferences are found everywhere, run by anyone, from students and clubs to organisations and institutions from all around the world. Each conference has its own unique name, goals, and vision, but oftentimes conferences will share a number of similar or same committees. Generally, there are four main types of committees: General Assemblies/Beginner Committees, Intermediate/Specialised Committees, Regional Councils and Advanced Committees. Although each type consists of more than only a few committees, there is definitely a possibility that some committees will be seen more often than once, especially in regards to General Assemblies. Each committee type oversees a distinct purpose, structure and format, as well as cater towards an audience of a certain experience range. In this article I will be discussing the intricacies and commonalities among each of these types.</p></div>
+
+
+
+
+<hr class="amp-article-hr-block"/>
+
+
+
+
+<div class="amp-article-html-block"><h3><strong>General Assemblies/Beginner Committees</strong></h3></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="1920"
+    height="1080"
+    src="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576044403012-86F46L8ZDA4DMX8RBQOA/ga_sg_speech.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576044403012-86F46L8ZDA4DMX8RBQOA/ga_sg_speech.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576044403012-86F46L8ZDA4DMX8RBQOA/ga_sg_speech.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576044403012-86F46L8ZDA4DMX8RBQOA/ga_sg_speech.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576044403012-86F46L8ZDA4DMX8RBQOA/ga_sg_speech.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576044403012-86F46L8ZDA4DMX8RBQOA/ga_sg_speech.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576044403012-86F46L8ZDA4DMX8RBQOA/ga_sg_speech.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576044403012-86F46L8ZDA4DMX8RBQOA/ga_sg_speech.jpg?format=100w 100w">
+  </amp-img>
+  
+  	<figcaption class="amp-article-image-caption"><p class="" style="white-space:pre-wrap;">Schneider, Evan. “United Nations General Assembly.” <em>United Nations General Assembly</em>, United Nations News &amp; Media Photo, 9 Sept. 2019, https://gadebate.un.org/generaldebate74/en/assets/img/ga_sg_speech.jpg.</p></figcaption>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">General Assemblies are the most comprehensive subunits of the United Nations. Novice Delegates are often drawn to these on the grounds of their size and large-scale nature of the topics and problems faced. The term General Assembly is often synonymous with ‘beginner committees’, and conferences will oftentimes utilise both terms. Technically, the General Assembly title should only apply to committees within the GA plenary itself, such as the First Committee (DISEC), the Second Committee (SOCHUM), and so on. However, it’s attribution to these entry-level committees has made it an umbrella term for other non-GA committees, with the most common being the World Health Organisation (WHO).</p>
+<p class="">In reality, these committees are suited for both novice and experienced Delegates alike, and the topics can range from political and economic affairs to social problems. Research and information for these committees are easily accessible and can often be found online or at a local library, with prime sources being past UN resolutions, as well as reports published by its various bodies. NorthMUN hopes to foster the cooperative platform that General Assemblies provide in a way that will allow delegates to examine the many facets of complex global issues and use creative methods to approach and resolve them.&nbsp;</p>
+<p class=""><em>Examples of General Assemblies include the Economic and Financial Committee (</em><strong><em>ECOFIN</em></strong><em>), the Disarmament &amp; International Security Committee (</em><strong><em>DISEC</em></strong><em>) and the Legal Committee (</em><strong><em>Legal</em></strong><em>).</em></p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="1186"
+    height="976"
+    src="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281926361-33QKAUOTE713M15N0N36/Screenshot+2021-03-20+at+4.07.15+PM.png?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281926361-33QKAUOTE713M15N0N36/Screenshot+2021-03-20+at+4.07.15+PM.png?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281926361-33QKAUOTE713M15N0N36/Screenshot+2021-03-20+at+4.07.15+PM.png?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281926361-33QKAUOTE713M15N0N36/Screenshot+2021-03-20+at+4.07.15+PM.png?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281926361-33QKAUOTE713M15N0N36/Screenshot+2021-03-20+at+4.07.15+PM.png?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281926361-33QKAUOTE713M15N0N36/Screenshot+2021-03-20+at+4.07.15+PM.png?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281926361-33QKAUOTE713M15N0N36/Screenshot+2021-03-20+at+4.07.15+PM.png?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281926361-33QKAUOTE713M15N0N36/Screenshot+2021-03-20+at+4.07.15+PM.png?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="1186"
+    height="998"
+    src="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616477319983-PXLR0RQF5V8OBMEFFOSJ/Screenshot+2021-03-22+at+10.25.55+PM.png?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616477319983-PXLR0RQF5V8OBMEFFOSJ/Screenshot+2021-03-22+at+10.25.55+PM.png?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616477319983-PXLR0RQF5V8OBMEFFOSJ/Screenshot+2021-03-22+at+10.25.55+PM.png?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616477319983-PXLR0RQF5V8OBMEFFOSJ/Screenshot+2021-03-22+at+10.25.55+PM.png?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616477319983-PXLR0RQF5V8OBMEFFOSJ/Screenshot+2021-03-22+at+10.25.55+PM.png?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616477319983-PXLR0RQF5V8OBMEFFOSJ/Screenshot+2021-03-22+at+10.25.55+PM.png?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616477319983-PXLR0RQF5V8OBMEFFOSJ/Screenshot+2021-03-22+at+10.25.55+PM.png?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616477319983-PXLR0RQF5V8OBMEFFOSJ/Screenshot+2021-03-22+at+10.25.55+PM.png?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">General Assemblies offered at NorthMUN 2021: the <a href="https://northmun.com/sochum">Social, Humanitarian, and Cultural Committee (<strong>SOCHUM</strong>)</a> and the <a href="https://northmun.com/who">World Health Organisation (<strong>WHO</strong>)</a>.</p></div>
+
+
+
+
+<hr class="amp-article-hr-block"/>
+
+
+
+
+<div class="amp-article-html-block"><h3><strong>Intermediate/Specialised Committees</strong></h3></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="2500"
+    height="1406"
+    src="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576044949680-301YWQQ1XUM611YC02ZI/PSC_Dec2019_2.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576044949680-301YWQQ1XUM611YC02ZI/PSC_Dec2019_2.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576044949680-301YWQQ1XUM611YC02ZI/PSC_Dec2019_2.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576044949680-301YWQQ1XUM611YC02ZI/PSC_Dec2019_2.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576044949680-301YWQQ1XUM611YC02ZI/PSC_Dec2019_2.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576044949680-301YWQQ1XUM611YC02ZI/PSC_Dec2019_2.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576044949680-301YWQQ1XUM611YC02ZI/PSC_Dec2019_2.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576044949680-301YWQQ1XUM611YC02ZI/PSC_Dec2019_2.jpg?format=100w 100w">
+  </amp-img>
+  
+  	<figcaption class="amp-article-image-caption"><p class="" style="white-space:pre-wrap;">“UNODC South Eastern Europe.” <em>UNODC South Eastern Europe</em>, https://www.unodc.org/images/southeasterneurope//PSC_Dec2019_2.jpg.</p></figcaption>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Specialised Committees, also known as Intermediate Committees, are smaller than General Assemblies/Beginner Committees and consist of more specific agendas. While Beginner Committees such as WHO focus on broader aspects, Intermediate Committees tend to focus on a more specific aspect of a larger issue. Intermediate committees consist of countries that are heavily involved in the committee’s field, therefore they are selectively chosen and are unique to each committee. For example, there are only 36 members in the Organisation for Economic Cooperation and Development (OECD) and all of them are economic hubs that are actively participating in international trade and development. Since there are many intermediate committees in both the United Nations and other international platforms, every MUN conference tends to include a unique variety of them.</p>
+<p class="">As the name would suggest, specialised committees specialise in a specific environment, Delegates in specialised committees are highly recommended to do research not only on the committee topic but also the committee itself, as oftentimes there are both limitations to a committee’s oversight and budget, as well as extensions to their power in comparison to the larger Beginner Committees.</p>
+<p class=""><em>Examples of Intermediate Committees include the United Nations Environmental Program (</em><strong><em>UNEP</em></strong><em>), the United Nations Human Rights Council (</em><strong><em>UNHRC</em></strong><em>) and the United Nations Office of Drugs and Crime (</em><strong><em>UNODC</em></strong><em>).</em></p>
+<p class="">There are no Intermediate Agencies offered at NorthMUN 2021.</p></div>
+
+
+
+
+<hr class="amp-article-hr-block"/>
+
+
+
+
+<div class="amp-article-html-block"><h3><strong>Regional Councils</strong></h3></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="2200"
+    height="1250"
+    src="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576045472276-0W2QAQ1P5VVEN6DYFAHH/20191204_191204f-026.png?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576045472276-0W2QAQ1P5VVEN6DYFAHH/20191204_191204f-026.png?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576045472276-0W2QAQ1P5VVEN6DYFAHH/20191204_191204f-026.png?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576045472276-0W2QAQ1P5VVEN6DYFAHH/20191204_191204f-026.png?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576045472276-0W2QAQ1P5VVEN6DYFAHH/20191204_191204f-026.png?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576045472276-0W2QAQ1P5VVEN6DYFAHH/20191204_191204f-026.png?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576045472276-0W2QAQ1P5VVEN6DYFAHH/20191204_191204f-026.png?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576045472276-0W2QAQ1P5VVEN6DYFAHH/20191204_191204f-026.png?format=100w 100w">
+  </amp-img>
+  
+  	<figcaption class="amp-article-image-caption"><p class="" style="white-space:pre-wrap;">“NATO Leaders' Meeting, London, United Kingdom.” <em>North Atlantic Treaty Organization</em>, 3 Dec. 2019, nato.int/nato_static_fl2014/assets/pictures/2019_12_191204f-leaders-nac/20191204_191204f-026.JPG.</p></figcaption>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Banking on the term ‘regional’, Regional Councils are committees that exist within and cater towards a specific geographical region, often consisting of a union of co-developing nations. These councils create opportunities for their member states to collaborate on projects and to resolve geopolitical issues pertaining primarily to their neighbourhood region. The number of members in a regional council can vary greatly as they depend on the number of member states that exist within a predefined region as well as the said predefinition of the region itself. Historically, regions have been carved in response to subcontinental and international conflict, as well as to mark key economic trade routes. They are also often correlated with societal culture and political ideologies, serving as the basis for either pseudo or externalised military alliances. Regional Councils can often be easily recognised by their name; for example, the European Union (EU) is a regional council consisting of a majority of the countries within the European subcontinent.</p>
+<p class=""><em>Examples of Regional Agencies include the </em>Association of Southeast Asian Nations<em> (</em><strong><em>ASEAN</em></strong><em>), the African Union (</em><strong><em>AU</em></strong><em>), the North Atlantic Treaty Organisation (</em><strong><em>NATO</em></strong><em>) and the </em><strong><em>Arab League</em></strong><em>.</em></p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="1186"
+    height="976"
+    src="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281716492-V5XQ32N3T2PM3P2BEHQ5/Screenshot+2021-03-20+at+4.06.31+PM.png?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281716492-V5XQ32N3T2PM3P2BEHQ5/Screenshot+2021-03-20+at+4.06.31+PM.png?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281716492-V5XQ32N3T2PM3P2BEHQ5/Screenshot+2021-03-20+at+4.06.31+PM.png?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281716492-V5XQ32N3T2PM3P2BEHQ5/Screenshot+2021-03-20+at+4.06.31+PM.png?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281716492-V5XQ32N3T2PM3P2BEHQ5/Screenshot+2021-03-20+at+4.06.31+PM.png?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281716492-V5XQ32N3T2PM3P2BEHQ5/Screenshot+2021-03-20+at+4.06.31+PM.png?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281716492-V5XQ32N3T2PM3P2BEHQ5/Screenshot+2021-03-20+at+4.06.31+PM.png?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281716492-V5XQ32N3T2PM3P2BEHQ5/Screenshot+2021-03-20+at+4.06.31+PM.png?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Regional Council offered at NorthMUN 2021: the <a href="https://northmun.com/apec">Asia-Pacific Economic Cooperation (APEC)</a>.</p></div>
+
+
+
+
+<hr class="amp-article-hr-block"/>
+
+
+
+
+<div class="amp-article-html-block"><h3><strong>Advanced Committees</strong></h3></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="2500"
+    height="1406"
+    src="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576045670671-KNI62LH876HV5M0ZD6DN/827317.jpg?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576045670671-KNI62LH876HV5M0ZD6DN/827317.jpg?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576045670671-KNI62LH876HV5M0ZD6DN/827317.jpg?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576045670671-KNI62LH876HV5M0ZD6DN/827317.jpg?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576045670671-KNI62LH876HV5M0ZD6DN/827317.jpg?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576045670671-KNI62LH876HV5M0ZD6DN/827317.jpg?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576045670671-KNI62LH876HV5M0ZD6DN/827317.jpg?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1576045670671-KNI62LH876HV5M0ZD6DN/827317.jpg?format=100w 100w">
+  </amp-img>
+  
+  	<figcaption class="amp-article-image-caption"><p class="" style="white-space:pre-wrap;">Stapleton, Shannon. “Members of the United Nations Security Council Sit during a Meeting.” <em>The Council on Foreign Relations</em>, Reuters, 24 Sept. 2018, https://cdn.cfr.org/sites/default/files/styles/article_header_l_16x9_600px/public/image/2017/03/UNSC.jpg.</p></figcaption>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Often portrayed as being the most powerful organisations simulated at a conference, as well as being one of the most difficult and cut-throat experiences you’ll have in your MUN career, all Advanced Committees are grounded by at least one commonality: strong, on-the-spot critical thinking is the essence of success. The small size of advanced committees means there’s no way for you to shy away from discussion, and the fast pacing resulting from the nature of such environments means there’s a good chance that you will be put under the spotlight multiple times regardless of your country or position’s political presence.</p>
+<p class="">Many advanced committees will have their own unique twist on RoP. Whether they are in a perpetual crisis scenario, a multi-bloc engagement, an enduring caucus, or any other format, it is important for delegates to be aware of the debate structure. As such, it is recommended that delegates read through the committee’s guidebook for more information on RoP, as well as message the committee dais should they have any further questions or reservations about it.</p>
+<p class="">Advanced committees are recommended for those who are willing to do detailed research about the nuances of a given issue and take a stance on concepts that are less mainstream than other United Nations Committees.&nbsp;At NorthMUN this year, the HCC will be an incredibly competitive committee, with high-stake high-risk topics requiring in-depth research and analysis that isn’t easily found with a single Google search.</p>
+<p class=""><em>Examples of Advanced Committees include the United Nations Security Council (</em><strong><em>UNSC</em></strong><em>), Joint Crisis Committees (</em><strong><em>JCC</em></strong><em>), the International Press Corps (</em><strong><em>IPC</em></strong><em>) and the House of Commons (</em><strong><em>HOC</em></strong><em>).</em></p></div>
+
+
+
+
+<figure class="amp-article-image-block">
+  <amp-img layout="responsive"
+    width="1186"
+    height="976"
+    src="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281687961-752M0SKGB8V2A5PJ8YQ0/Screenshot+2021-03-20+at+4.05.46+PM.png?format=500w"
+    srcset="https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281687961-752M0SKGB8V2A5PJ8YQ0/Screenshot+2021-03-20+at+4.05.46+PM.png?format=2500w 2500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281687961-752M0SKGB8V2A5PJ8YQ0/Screenshot+2021-03-20+at+4.05.46+PM.png?format=1500w 1500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281687961-752M0SKGB8V2A5PJ8YQ0/Screenshot+2021-03-20+at+4.05.46+PM.png?format=1000w 1000w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281687961-752M0SKGB8V2A5PJ8YQ0/Screenshot+2021-03-20+at+4.05.46+PM.png?format=750w 750w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281687961-752M0SKGB8V2A5PJ8YQ0/Screenshot+2021-03-20+at+4.05.46+PM.png?format=500w 500w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281687961-752M0SKGB8V2A5PJ8YQ0/Screenshot+2021-03-20+at+4.05.46+PM.png?format=300w 300w,
+      https://images.squarespace-cdn.com/content/v1/5bbbf8447788970669bcc370/1616281687961-752M0SKGB8V2A5PJ8YQ0/Screenshot+2021-03-20+at+4.05.46+PM.png?format=100w 100w">
+  </amp-img>
+  
+</figure>
+
+
+
+
+<div class="amp-article-html-block"><p class="">Advanced Committee offered at NorthMUN 2021: the <a href="https://www.northmun.com/hcc">Historical Crisis Committee (HCC)</a>.</p></div>
+
+
+      <footer class="amp-article-footer">
+        <p class="amp-article-original-source">
+          Discover more from <a href="https://www.northmun.com/compass" target="_blank"><em>North Model United Nations 2021</em></a>
+        </p>
+      </footer>
+
+    </article>
+  </div>
+</body>
+</html>
